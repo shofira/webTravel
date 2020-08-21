@@ -1,0 +1,109 @@
+html {
+  position: relative;
+}
+
+body {
+  margin-bottom: 200px;
+}
+
+.jumbotron {
+  background-image: url(../images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.jumbotron .slogan {
+  font-family: "Sriracha", cursive;
+  color: black;
+}
+
+.jumbotron h1 {
+  margin-top: 60px;
+}
+
+hr {
+  width: 150px;
+  border: 2px solid #333;
+}
+
+.about {
+  min-height: 400px;
+}
+
+.book {
+  margin-top: 50px;
+  min-height: 600px;
+}
+
+.book a {
+  text-decoration: none;
+  color: rgb(48, 70, 133);
+  font-weight: bold;
+}
+
+.book input {
+  border-radius: 50px;
+}
+
+.info {
+  min-height: 600px;
+  margin-top: 50px;
+}
+
+.info img {
+  width: 80%;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  padding-top: 30px;
+}
+
+footer {
+  color: #aaa;
+  display: flex;
+}
+
+footer a {
+  color: #aaa;
+}
+
+footer p,
+ul,
+li {
+  font-size: 0.8em;
+}
+
+.connect {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+}
+
+/* responsive in tablet */
+@media (max-width: 767.98px) {
+  body {
+    margin-bottom: 300px;
+  }
+
+  footer {
+    height: 300px;
+  }
+}
+
+/* responsive in handphone */
+@media (max-width: 575.98px) {
+  body {
+    margin-bottom: 450px;
+  }
+
+  footer {
+    height: 450px;
+  }
+}
